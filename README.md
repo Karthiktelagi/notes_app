@@ -1,16 +1,35 @@
-# notes_app
+# 📒 Notes App (Flutter)
 
-A new Flutter project.
+A simple **cross-platform Notes application** built with **Flutter**.  
+This project demonstrates how to use **local storage** with two approaches:  
 
-## Getting Started
+- ⚡ **Hive (NoSQL, lightweight, fast)**  
+- 🗄️ **SQLite (SQL-based, structured queries)**  
 
-This project is a starting point for a Flutter application.
+State management is handled with **Provider** for simplicity and reactivity.  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features
+- ➕ Create, edit, and delete notes  
+- 🔍 Search notes by title or content  
+- 📅 Auto-timestamps for created/updated notes  
+- 🗂️ Switchable storage backend (Hive / SQLite)  
+- 🎨 Simple and clean UI  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠️ Tech Stack
+- Flutter (Dart)  
+- Provider (state management)  
+- Hive & Hive Flutter (Option A)  
+- Sqflite + Path Provider (Option B)  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/<your-username>/notes_app.git
+cd notes_app
