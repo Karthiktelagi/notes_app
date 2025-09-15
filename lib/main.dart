@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (_) => NoteProviderHive(),
       child: MaterialApp(
-        title: 'Notes Hive App',
+        title: 'Notes App',
         theme: ThemeData(primarySwatch: Colors.indigo),
         home: const HomeScreen(),
       ),
